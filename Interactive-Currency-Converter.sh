@@ -1,6 +1,6 @@
 #!/bin/bash
 
-API_KEY="b56c08501c652b6da0ff5164"
+API_KEY=""
 
 while true
 do
