@@ -6,7 +6,7 @@ BACKUP_DIR="/home/aman/log_backups"
 DATE=$(date +\%Y\%m\%d\%H\%M)
 LOG_FILE="$BACKUP_DIR/log_compression_report_$DATE.txt"
 SUBJECT="Log Compression Report - $DATE"
-ADMIN_EMAIL="amanmishra658@gmail.com"
+ADMIN_EMAIL="amanmishra@gmail.com"
 
 # Create backup directory if it doesn't exist
 mkdir -p $BACKUP_DIR
