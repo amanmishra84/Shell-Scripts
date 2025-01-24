@@ -10,7 +10,7 @@ fi
 #configuration
 
 LOGFILE="/var/log/network_health.log"
-EMAIL="amanmishra658@gmail.com"
+EMAIL="amanmishra@gmail.com"
 HOSTS=("198.128.2.1" "8.8.8.8" "192.168.1.1" "1.1.1.1" "google.com")
 PING_COUNT=3
 THRESHOLD=1
