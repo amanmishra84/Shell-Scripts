@@ -20,7 +20,7 @@ INTERFACE="wlo1"              # Network interface to monitor (e.g., eth0, wlan0)
 THRESHOLD_KB=100000           # Threshold in kB (e.g., 100000 kB = 100 MB)
 ALERT_COUNT=3                 # Number of consecutive breaches before alert
 LOG_FILE="/tmp/traffic.log"   # File to store traffic data
-EMAIL="amanmishra658@gmail.com"     # Email address for alerts
+EMAIL="amanmishra@gmail.com"     # Email address for alerts
 
 # Collect traffic stats using vnstat
 TRAFFIC=$(vnstat --oneline | grep "$INTERFACE" | awk -F';' '{print $6}' | tr -d ' ')
